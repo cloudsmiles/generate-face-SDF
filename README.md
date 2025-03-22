@@ -5,6 +5,7 @@ generateSDF是一个使用Golang编写的命令行工具，用于生成SDF（Sig
 
 ## 命令说明
 ### 生成SDF图片
+输入的图片需要是8bit图
 
 ```bash
 # 指定图片生成
@@ -17,8 +18,9 @@ go run sdf.go gen example/*.png
 go run sdf.go gen -o output example/*.png
 ```
 
-### 合并混合SDF图片
-合并的图片需要成对，不能只有单数
+### 混合SDF图片
+合并的图片需要大于一张，分辨率大小保持一致
+
 ```bash
 # 合并两张SDF图片
 go run sdf.go blend sdf_output/a.png sdf_output/b.png
