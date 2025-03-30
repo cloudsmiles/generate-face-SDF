@@ -33,6 +33,12 @@ go run sdf.go blend -o output/blend.png sdf_output/*.png
 ```
 
 ## 生成效果
+执行以下命令
+```bash
+go run sdf.go gen example/*.png
+
+go run sdf.go blend sdf_output/*.png
+```
 使用example文件夹下的图片生成的效果如下：
 ![](./blended.png)
 
