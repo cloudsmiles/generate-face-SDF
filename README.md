@@ -1,6 +1,6 @@
 # generateSDF
 ## 简介
-generateSDF是一个使用Golang编写的命令行工具，用于生成SDF（Signed Distance Field）图片，以及混合SDF图片形成动画效果。SDF是一种用于描述2D和3D形状的数学函数，它可以描述形状的边界和内部。
+generateSDF是一个使用Golang编写的命令行工具，用于生成脸部SDF（Signed Distance Field）图片，以及混合SDF图片形成动画效果。SDF是一种用于描述2D和3D形状的数学函数，它可以描述形状的边界和内部。
 主要使用的算法是8SSEDT, 8SSEDT算法的原理可以参考[这里](http://www.codersnotes.com/notes/signed-distance-fields/)
 
 ## 命令说明
